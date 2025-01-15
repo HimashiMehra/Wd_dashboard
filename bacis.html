@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="bacis.css">
+        <title>Basic</title>
+    </head>
+    <body>
+        
+        <form action="/submit" method="POST">
+            <h2>Text Input</h2>
+            <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter Your Full Name" required>
+
+        <h2>Email</h2>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <h2>Password</h2>
+        <label for="Password">Password</label>
+        <input type="password" id="password" name="password" required>
+
+
+        <h2>Phone Number</h2>
+        <label for="phone">Phone Number</label>
+        <input type="number" id="phone" name="phone" required>
+
+        <h2>Date</h2>
+        <label for="date">Date</label>
+        <input type="date" id="date" name="date"required>
+
+        <h2>CV</h2>
+        <label for="file">Upload file</label>
+        <input type="file" id="file" name="file"required>
+
+        <h2>Gender</h2>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female">
+        
+
+     <h2>Hobby</h2>
+     <input type="checkbox" id="1" name="hobby" value="Reading">
+     <label for="Reading">Reading</label>
+
+          <input type="checkbox" id="2" name="hobby" value="Sports">
+          <label for="Sports">Sports</label>
+  
+
+         <input type="checkbox" id="3" name="hobby" value="Traveling">
+         <label for="Traveling">Traveling</label>
+    
+   
+      <input type="checkbox" id="4" name="hobby" value="Playing">
+      <label for="Playing">Playing</label>
+   
+   
+     
+     <h2>Country</h2>
+     <label for="Country">Country</label>
+     <select name="city" id="city">
+        <option value="Delhi">Delhi</option>
+        <option value="Russia">Russia</option>
+        <option value="canada">Canada</option>
+        <option value="China">China</option>
+        <option value="Brazil">Brazil</option>
+        <option value="Bangladesh">Bangladesh</option>
+        <option value="Switzerland">Switzerland</option>
+        <option value="Japan">Japan</option>
+        <option value="United State">United State</option>
+        <option value="Australia">Australia</option>
+        <option value="India">India</option>
+        <option value="Pakistan">Pakistan</option>
+        
+     </select>
+
+     <h2>Message</h2>
+     <label for="Message">Message</label>
+    <textarea id="Message" name="Message" row="10" placeholder="Share your thoughts" required></textarea>  
+     <h2>Submit</h2>
+     <input type="submit" value="submit">
+     </form>
+    </body>
+</html>
